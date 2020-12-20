@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: inherit;
     }
     body {
-        background-color: ${COLORS.background_main};
+        background-color: ${COLORS.background_intro};
         color: ${COLORS.font_main};
         font-family: 'OpenSans-Regular', sans-serif;
         font-size: 14px;
