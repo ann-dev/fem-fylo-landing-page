@@ -4,14 +4,15 @@ import Button from "components/common/Button/Button"
 import Input from "components/common/Input/Input"
 import {
   EarlyAccessWrapper,
-  EarlyAccessBgFiller,
   EarlyAccessCTA,
+  EarlyAccessBgFiller,
   EarlyAccessCTAHeader,
   EarlyAccessCTAText,
+  EarlyAccessInputWrapper
 } from "./styles"
 
 const EarlyAccess = () => (
-  <EarlyAccessWrapper>
+  <EarlyAccessWrapper id="early-access">
     <EarlyAccessCTA>
       <EarlyAccessCTAHeader>Get early access today</EarlyAccessCTAHeader>
       <EarlyAccessCTAText>
@@ -19,8 +20,10 @@ const EarlyAccess = () => (
         generous. If you have any questions, our support team would be happy to
         help you.
       </EarlyAccessCTAText>
-      <Input placeholder="email@example.com" name="email"/>
-      <Button>Get Started For Free</Button>
+      <EarlyAccessInputWrapper>
+        <Input placeholder="email@example.com" name="email" />
+        <Button>Get Started For Free</Button>
+      </EarlyAccessInputWrapper>
     </EarlyAccessCTA>
     <EarlyAccessBgFiller />
   </EarlyAccessWrapper>

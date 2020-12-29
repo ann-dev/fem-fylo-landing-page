@@ -7,7 +7,7 @@ const PageLink = ({ text }) => (
   <PageLinkWrapper>
     <PageLinkText>{text}</PageLinkText>
     <img src={ArrowIcon} alt="arrow icon" />
-    <PageLinkUnderline />
+    <PageLinkUnderline className="underline" />
   </PageLinkWrapper>
 )
 

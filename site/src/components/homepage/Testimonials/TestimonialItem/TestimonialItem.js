@@ -1,4 +1,5 @@
 import React from "react"
+
 import {
   TestimonialItemWrapper,
   TestimonialItemText,
@@ -6,10 +7,11 @@ import {
   TestimonialItemPicture,
   TestimonialItemInfo,
   TestimonialItemName,
-  TestimonialItemJobTitle
+  TestimonialItemJobTitle,
 } from "./styles"
+import QuoteIcon from "assets/images/bg-quotes.png"
 
-const TestimonialItem = ({ text, imageSrc, fullName, jobTitle }) => (
+const TestimonialItem = ({ text, imageSrc, fullName, jobTitle, quoteIcon }) => (
   <TestimonialItemWrapper>
     <TestimonialItemText>{text}</TestimonialItemText>
     <TestimonialItemProfile>
@@ -21,6 +23,11 @@ const TestimonialItem = ({ text, imageSrc, fullName, jobTitle }) => (
         <TestimonialItemJobTitle>{jobTitle}</TestimonialItemJobTitle>
       </TestimonialItemInfo>
     </TestimonialItemProfile>
+    {quoteIcon === "true" ? (
+      <img src={QuoteIcon} className="icon-quotes" alt="pair of cyan quotes" />
+    ) : (
+      ""
+    )}
   </TestimonialItemWrapper>
 )
 

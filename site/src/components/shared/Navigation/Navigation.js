@@ -1,7 +1,10 @@
 import React from "react"
+import { Link } from "gatsby"
+
 import Logo from "assets/images/logo.svg"
 import {
   NavigationWrapper,
+  NavigationContentWrapper,
   NavigationLogo,
   NavigationList,
   NavigationListItem,
@@ -9,12 +12,16 @@ import {
 
 const Navigation = () => (
   <NavigationWrapper>
-    <NavigationLogo src={Logo} alt="Fylo logo" />
-    <NavigationList>
-      <NavigationListItem>Features</NavigationListItem>
-      <NavigationListItem>Team</NavigationListItem>
-      <NavigationListItem>Sign In</NavigationListItem>
-    </NavigationList>
+    <NavigationContentWrapper>
+      <Link to="/">
+        <NavigationLogo src={Logo} alt="Fylo logo" />
+      </Link>
+      <NavigationList>
+        <NavigationListItem>Features</NavigationListItem>
+        <NavigationListItem>Team</NavigationListItem>
+        <NavigationListItem>Sign In</NavigationListItem>
+      </NavigationList>
+    </NavigationContentWrapper>
   </NavigationWrapper>
 )
 
