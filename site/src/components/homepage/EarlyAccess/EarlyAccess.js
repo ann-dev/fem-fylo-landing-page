@@ -8,7 +8,7 @@ import {
   EarlyAccessBgFiller,
   EarlyAccessCTAHeader,
   EarlyAccessCTAText,
-  EarlyAccessInputWrapper
+  EarlyAccessInputWrapper,
 } from "./styles"
 
 const EarlyAccess = () => (
@@ -21,7 +21,7 @@ const EarlyAccess = () => (
         help you.
       </EarlyAccessCTAText>
       <EarlyAccessInputWrapper>
-        <Input placeholder="email@example.com" name="email" />
+        <Input placeholder="email@example.com" name="email" labelText="email" />
         <Button>Get Started For Free</Button>
       </EarlyAccessInputWrapper>
     </EarlyAccessCTA>

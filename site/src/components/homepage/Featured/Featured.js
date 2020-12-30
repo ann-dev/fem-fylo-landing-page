@@ -15,24 +15,28 @@ const Featured = () => (
         imageUrl={FeaturedItem_Location}
         header="Access your files, anywhere"
         text="The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere."
+        alt="Desktop monitor displaing a map and a mobile phone"
       />
       <FeaturedItem
         className="featured-item margin-bottom security-item"
         imageUrl={FeaturedItem_Security}
         header="Security you can trust"
         text="2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files."
+        alt="Shield with approved sign"
       />
       <FeaturedItem
         className="featured-item margin-bottom collab-item"
         imageUrl={FeaturedItem_Collab}
         header="Real-time collaboration"
         text="Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required."
+        alt="Group of people in front of a huge clock"
       />
       <FeaturedItem
         className="featured-item"
         imageUrl={FeaturedItem_Files}
         header="Store any type of file"
         text="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
+        alt="File folder"
       />
     </FeaturedGrid>
   </FeaturedWrapper>
