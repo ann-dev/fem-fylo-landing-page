@@ -62,15 +62,28 @@ export const EarlyAccessCTAText = styled.p`
   }
 `
 
-export const EarlyAccessInputWrapper = styled.div`
+export const EarlyAccessForm = styled.form`
   display: flex;
   flex-direction: column;
+  position: relative;
   input,
   button {
     margin: auto;
   }
   input {
     margin-bottom: 24px;
+  }
+  .text-error {
+    color: ${COLORS.font_error};
+    font-family: "OpenSans-Bold";
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: -15px;
+    @media ${DEVICES.laptopM} {
+      bottom: -10px;
+      left: 39px;
+      position: absolute;
+    }
   }
   @media ${DEVICES.mobileL} {
     input {

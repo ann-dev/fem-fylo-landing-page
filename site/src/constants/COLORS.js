@@ -5,5 +5,6 @@ export const COLORS = {
   background_intro: "hsl(217, 28%, 15%)",
   background_main: "hsl(218, 28%, 13%)",
   background_testimonials: "hsl(219, 30%, 18%)",
+  font_error: "#FF4242",
   font_main: "white"
 }

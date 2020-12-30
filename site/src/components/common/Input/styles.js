@@ -9,4 +9,7 @@ export const InputField = styled.input`
   height: 48px;
   padding: 19px 29px;
   width: 240px;
+  .input-error {
+    border: 2px solid red;
+  }
 `
