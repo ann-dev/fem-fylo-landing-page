@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { COLORS } from "src/constants/COLORS"
 import { DEVICES } from "src/constants/DEVICES"
 
-export const HeroWrapper = styled.section`
+export const HeroWrapper = styled.div`
   padding-top: 24px;
   text-align: center;
   @media ${DEVICES.laptopM} {

@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { COLORS } from "src/constants/COLORS"
 import { DEVICES } from "src/constants/DEVICES"
 
-export const TestimonialsWrapper = styled.section`
+export const TestimonialsWrapper = styled.div`
   background-color: ${COLORS.background_main};
   padding: 80px 0;
   z-index: 1;

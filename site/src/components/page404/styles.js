@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { DEVICES } from "src/constants/DEVICES"
 
-export const NotFoundWrapper = styled.section`
+export const NotFoundWrapper = styled.div`
   display: flex;
   min-height: 55vh;
   padding: 50px 24px;

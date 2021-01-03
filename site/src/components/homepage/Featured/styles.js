@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { COLORS } from "src/constants/COLORS"
 import { DEVICES } from "src/constants/DEVICES"
 
-export const FeaturedWrapper = styled.section`
+export const FeaturedWrapper = styled.div`
   background-color: ${COLORS.background_main};
   height: auto;
   padding: 120px 0 80px;

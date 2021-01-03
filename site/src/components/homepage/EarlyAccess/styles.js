@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { COLORS } from "src/constants/COLORS"
 import { DEVICES } from "src/constants/DEVICES"
 
-export const EarlyAccessWrapper = styled.section`
+export const EarlyAccessWrapper = styled.div`
   background-color: ${COLORS.background_main};
   height: auto;
   padding: 80px 0 0;
