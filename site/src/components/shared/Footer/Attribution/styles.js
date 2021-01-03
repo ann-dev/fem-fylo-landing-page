@@ -2,9 +2,7 @@ import styled from "styled-components"
 import { DEVICES } from "src/constants/DEVICES"
 
 export const AttributionWrapper = styled.div`
-  @media ${DEVICES.mobileL} {
-    margin-top: 13px;
-  }
+  margin-top: 13px;
 `
 
 export const AttributionItem = styled.span`
