@@ -1,4 +1,4 @@
-# Frontend Mentor - Fylo landing page with dark theme and features grid
+# Frontend Mentor - Fylo landing page (dark theme)
 
 ![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
 
@@ -6,16 +6,26 @@
 
 <p align="center">
   <img alt="last commit badge" src="https://img.shields.io/github/last-commit/ann-dev/fem-fylo-landing-page?style=flat-square">
-  <img alt="code stack" src="https://img.shields.io/badge/tech_stack-GatsbyJs, styled components-663399.svg?style=flat-square">
+  <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/f19cc58c-2afc-48bc-9b72-ed8d51c88a84/deploy-status" />
 </p>
 
-<p align="center">Responsive page design challenge: landing page with a dark theme. <br />
-  Based on GatsbyJs, styled components and React Hook Form.<br />
-  My solution for one of challenges for
-  <a href="https://www.frontendmentor.io/profile/ann-dev">frontendmentor.io</a>
+## Description
+
+<p align="center">Responsive page design challenge: landing page with a dark theme, based on GatsbyJs, styled components and React Hook Form.
+  My solution for one of challenges for <a href="https://www.frontendmentor.io/profile/ann-dev">frontendmentor.io</a>
 </p>
 
-### Install
+<h3>Main features:</h3>
+<ul>
+    <li>Based on GatsbyJs and styled components<br /></li>
+    <li>Responsive layouts based on Flexbox and CSS Grid</li>
+    <li>CI/CD integration with Netlify</li>
+    <li>Custom 404 page</li>
+</ul>
+
+## Usage 
+
+### Installation
 
 Please navigate first to the "site" folder! Then run:
 
@@ -23,7 +33,7 @@ Please navigate first to the "site" folder! Then run:
 npm install
 ```
 
-### Usage
+### Development
 
 To run the app on a local server use:
 
@@ -38,6 +48,8 @@ In case of any performance issues, run this command:
 gatsby clean
 ```
 
+### Production
+
 To compile for production build:
 
 ```sh
@@ -50,7 +62,7 @@ Testing production build locally:
 npx serve public
 ```
 
-### Credits
+## Credits
 
 * Designed by [Frontend Mentor Team](https://www.frontendmentor.io/). 
 * Social icons by [Ionicons](https://ionicons.com/).
