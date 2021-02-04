@@ -11,8 +11,7 @@
 
 ## Description
 
-<p align="center">Responsive page design challenge: landing page with a dark theme, based on GatsbyJs, styled components and React Hook Form.
-  My solution for one of challenges for <a href="https://www.frontendmentor.io/profile/ann-dev">frontendmentor.io</a>
+<p>Responsive page design challenge: landing page with a dark theme, based on GatsbyJs, styled components and React Hook Form. My solution for one of challenges for <a href="https://www.frontendmentor.io/profile/ann-dev">frontendmentor.io</a>
 </p>
 
 <h3>Main features:</h3>
@@ -23,7 +22,7 @@
     <li>Custom 404 page</li>
 </ul>
 
-## Usage 
+## Usage
 
 ### Installation
 
@@ -64,6 +63,6 @@ npx serve public
 
 ## Credits
 
-* Designed by [Frontend Mentor Team](https://www.frontendmentor.io/). 
+* Designed by [Frontend Mentor Team](https://www.frontendmentor.io/).
 * Social icons by [Ionicons](https://ionicons.com/).
 * Code written by [ann-dev](https://github.com/ann-dev).
