@@ -17,9 +17,14 @@ const Navigation = () => (
         <NavigationLogo src={Logo} alt="Fylo logo" />
       </Link>
       <NavigationList>
-        <NavigationListItem>Features</NavigationListItem>
-        <NavigationListItem>Team</NavigationListItem>
-        <NavigationListItem>Sign In</NavigationListItem>
+        <NavigationListItem>
+          <Link to="/features">Features</Link>
+        </NavigationListItem>
+        <NavigationListItem>
+          <Link to="/team">Team</Link>
+        </NavigationListItem>
+        <NavigationListItem>
+          <Link to="/login">Sign In</Link></NavigationListItem>
       </NavigationList>
     </NavigationContentWrapper>
   </NavigationWrapper>

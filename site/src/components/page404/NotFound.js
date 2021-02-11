@@ -15,7 +15,7 @@ const NotFound = () => (
   <NotFoundWrapper>
     <NotFoundContentWrapper>
       <NotFoundImage>
-        <img src={Image404} alt="person sitting on big 404 structure" />
+        <img src={Image404} alt="" role="presentation" />
       </NotFoundImage>
       <article>
         <NotFoundHeader>404 Not found. Sorry!</NotFoundHeader>

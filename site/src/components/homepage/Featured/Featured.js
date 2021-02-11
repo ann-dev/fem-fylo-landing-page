@@ -15,7 +15,7 @@ const Featured = () => (
         imageUrl={FeaturedItem_Location}
         header="Access your files, anywhere"
         text="The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere."
-        alt="Desktop monitor displaing a map and a mobile phone"
+        alt="Desktop monitor displaying a map and a mobile phone"
       />
       <FeaturedItem
         className="featured-item margin-bottom security-item"

@@ -14,10 +14,7 @@ const StayProductive = () => (
   <SP_Wrapper>
     <SP_ContentWrapper>
       <SP_ImageWrapper>
-        <img
-          src={SP_FeaturedImage}
-          alt="illustration of three people with speech bubbles"
-        />
+        <img src={SP_FeaturedImage} alt="" role="presentation" />
       </SP_ImageWrapper>
       <SP_TextWrapper>
         <SP_Header>Stay productive, wherever you are</SP_Header>

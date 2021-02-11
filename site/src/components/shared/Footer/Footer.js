@@ -28,15 +28,29 @@ const Footer = () => (
         <ContactSection />
         <FooterLinks>
           <FooterLinksList>
-            <li className="item-margin">About Us</li>
-            <li className="item-margin">Jobs</li>
-            <li className="item-margin">Press</li>
-            <li>Blog</li>
+            <li>
+              <Link to="/about-us">About Us</Link>
+            </li>
+            <li>
+              <Link to="/jobs">Jobs</Link>
+            </li>
+            <li>
+              <Link to="/press">Press</Link>
+            </li>
+            <li>
+              <Link to="/blog">Blog</Link>
+            </li>
           </FooterLinksList>
           <FooterLinksList>
-            <li className="item-margin">Contact Us</li>
-            <li className="item-margin">Terms</li>
-            <li>Privacy</li>
+            <li>
+              <Link to="/contact-us">Contact Us</Link>
+            </li>
+            <li>
+              <Link to="/terms">Terms</Link>
+            </li>
+            <li>
+              <Link to="/privacy-policy">Privacy</Link>
+            </li>
           </FooterLinksList>
         </FooterLinks>
         <SocialsSection>

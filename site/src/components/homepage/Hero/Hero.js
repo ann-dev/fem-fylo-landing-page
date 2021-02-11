@@ -18,16 +18,14 @@ const Hero = () => (
   <HeroWrapper>
     <HeroMediaWrapper>
       <HeroImageWrapper>
-        <img
-          src={HeroImage}
-          alt="illustration of people taking papers from a huge file folder"
-        />
+        <img src={HeroImage} alt="" role="presentation" />
       </HeroImageWrapper>
       <HeroCurveWrapper>
         <img
           src={CurveImageMobile}
           srcSet={`${CurveImageMobile} 300w, ${CurveImageDesktop} 768w`}
-          alt="curved shape of a wave"
+          alt=""
+          role="presentation"
         />
       </HeroCurveWrapper>
     </HeroMediaWrapper>

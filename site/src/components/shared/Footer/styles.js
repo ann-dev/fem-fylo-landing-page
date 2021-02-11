@@ -59,19 +59,26 @@ export const FooterLinks = styled.div`
 
 export const FooterLinksList = styled.ul`
   margin-top: 48px;
+  &:last-child {
+    margin-bottom: 0;
+  }
   @media ${DEVICES.laptopM} {
     margin-top: 28px;
   }
   li {
     font-size: 16px;
-    transition: text-shadow .3s ease-in;
+    margin-bottom: 16px;
+    transition: text-shadow 0.3s ease-in;
     &:hover {
       cursor: pointer;
       text-shadow: 0 0 1px white, 0 0 1px white;
     }
-  }
-  .item-margin {
-    margin-bottom: 16px;
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 `
 
@@ -94,8 +101,10 @@ export const SocialsSection = styled.div`
 
 export const SocialsLogo = styled.img`
   height: auto;
+  transition: filter 0.5s ease-in;
   width: 28px;
   &:hover {
     cursor: pointer;
+    filter: brightness(0.5);
   }
 `
