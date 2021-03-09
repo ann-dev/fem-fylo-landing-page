@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo landing page (dark theme)
 
-![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
+![Design preview for the Fylo landing page with dark theme and features grid challenge](./preview.jpg)
 
 <h3 align="center"><a href="https://fylo-landing-page-dark.netlify.app/" target="_blank">✨ Live Demo</a></h3>
 
